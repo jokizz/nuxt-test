@@ -1,5 +1,4 @@
 const pkg = require("./package")
-const nodeExternals = require('webpack-node-externals')
 
 module.exports = {
   mode: "universal",
@@ -46,6 +45,6 @@ module.exports = {
     */
     transpile: [/vue-tinymce-editor/],
     extend(config, ctx) {
-     }
+    }
   }
 };
